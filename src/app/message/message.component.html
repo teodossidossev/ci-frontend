@@ -1,0 +1,8 @@
+<div>
+  <input type="text" [(ngModel)]="id" placeholder="Enter message ID">
+  <input type="text" [(ngModel)]="message" placeholder="Enter message content">
+  <button (click)="getMessage()">Get Message</button>
+  <button (click)="createMessage()">Create Message</button>
+  <button (click)="updateMessage()">Update Message</button>
+</div>
+<p>Message: {{ message }}</p>

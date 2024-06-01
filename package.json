@@ -1,10 +1,12 @@
 {
   "name": "ci-frontend",
-  "version": "0.0.0",
+  "version": "0.0.0-SHAPSHOT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -27,6 +29,7 @@
     "@angular/cli": "^17.3.7",
     "@angular/compiler-cli": "^17.3.0",
     "@types/jasmine": "~5.1.0",
+    "cypress": "^13.10.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",

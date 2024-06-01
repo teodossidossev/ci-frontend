@@ -2,7 +2,7 @@
   <input type="text" [(ngModel)]="id" placeholder="Enter message ID" class="message-id-input">
   <input type="text" [(ngModel)]="message" placeholder="Enter message content" class="message-value">
   <button (click)="getMessage()" class="get-message-button">Get Message</button>
-  <button (click)="createMessage()">Create Message</button>
-  <button (click)="updateMessage()">Update Message</button>
+  <button (click)="createMessage()" class="create-message-button">Create Message</button>
+  <button (click)="updateMessage()" class="update-message-button">Update Message</button>
 </div>
 <p>Message: {{ message }}</p>
